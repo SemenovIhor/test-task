@@ -1,0 +1,100 @@
+.card {
+  width: 406px;
+
+  background: linear-gradient(114.99deg, #471CA9 -0.99%, #5736A3 54.28%, #4B2A99 78.99%);
+  box-shadow: -3px 8px 24px rgba(0, 0, 0, 0.23);
+  border-radius: 24px;
+  position: relative;
+
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 24px;
+
+  padding-bottom: 48px;
+
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.21;
+  text-transform: uppercase;
+  color: #EBD8FF;
+}
+
+.card::before {
+  content: "";
+  width: 357px;
+  height: 194px;
+  background: url("../img/picture.png") no-repeat;
+  top: 34px;
+  right: 45px;
+  position: absolute;
+  display: inline-block;
+}
+
+.user {
+  position: absolute;
+  top: 209px;
+  left: 191px;
+  background: #5736A3;
+  border-radius: 50%;
+}
+
+.band {
+  position: absolute;
+  top: 247px;
+  left: 0px;
+}
+
+.ellipse {
+  position: absolute;
+  top: 209px;
+  left: 181px;
+} 
+
+.tweets {
+  text-align: center;
+  margin-top: 242px;
+}
+
+.followers {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn_follow {
+  width: 226px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 32px;
+
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background: #EBD8FF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  border-color: #EBD8FF;
+}
+
+.btn_following {
+  width: 226px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 32px;
+
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background: #5CD3A8;;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  border-color: #EBD8FF;
+}
